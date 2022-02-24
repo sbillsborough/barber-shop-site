@@ -3,3 +3,7 @@ img {
   height: 400px;
   width: 800px;
 }
+
+.haircuts .box-container .box .image img {
+  max-width: 300px;
+}
