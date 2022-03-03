@@ -26,8 +26,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Scrollbar Styling */
-
 html::-webkit-scrollbar {
   width: 0.8rem;
 }
@@ -37,6 +35,14 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: var(--bg);
+  background: #fff;
   border-radius: 5rem;
+}
+
+body {
+  background: var(--bg);
+}
+
+section {
+  padding: 2rem 7%;
 }
