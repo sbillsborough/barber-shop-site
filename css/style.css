@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap");
 
 :root {
-  --main-color: rgb(158, 0, 0);
+  --red: rgb(158, 0, 0);
   --black: #13131a;
   --bg: #010103;
   --border: 0.1rem solid rgba(255, 255, 255, 0.3);
@@ -45,4 +45,12 @@ body {
 
 section {
   padding: 2rem 7%;
+}
+
+.heading {
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+  padding-bottom: 3.5rem;
+  font-size: 4rem;
 }
