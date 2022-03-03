@@ -16,5 +16,27 @@
   border: none;
   text-decoration: none;
   text-transform: capitalize;
-  transition: 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 7rem;
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar Styling */
+
+html::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--bg);
+  border-radius: 5rem;
 }
