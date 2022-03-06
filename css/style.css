@@ -81,7 +81,7 @@ section {
   justify-content: space-between;
   padding: 1.5rem 7%;
   border-bottom: var(--border);
-  z-index: 1;
+  z-index: 1000;
 }
 
 .header .logo {
@@ -99,6 +99,7 @@ section {
 .header .navbar a:hover {
   color: var(--main-color);
   border-bottom: 0.1rem solid var(--main-color);
+  padding-bottom: 0.5rem;
 }
 
 .header .icons div {
@@ -205,4 +206,13 @@ section {
 
 .header .login-form .btn {
   width: 100%;
+}
+
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(../images/home-img.jpg);
+  background-size: cover;
+  background-position: center;
 }
