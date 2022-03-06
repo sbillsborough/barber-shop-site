@@ -62,7 +62,7 @@ section {
   font-size: 1.7rem;
   color: #fff;
   background: var(--main-color);
-  border-radius: 0.2rem;
+  border-radius: 0.3rem;
   cursor: pointer;
 }
 
@@ -233,4 +233,23 @@ section {
   line-height: 1.8;
   padding: 1rem 0;
   color: #eee;
+}
+
+.form-container form {
+  background: var(--black);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.form-container form .inputBox {
+  flex: 1 1 23rem;
+}
+
+.form-container form .inputBox span {
+  font-size: 1.7rem;
+  color: #fff;
 }
