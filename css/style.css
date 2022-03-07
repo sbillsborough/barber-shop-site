@@ -157,7 +157,7 @@ section {
   position: absolute;
   top: 115%;
   right: 7%;
-  background: var(--bg-color-1);
+  background: var(--black);
   border-radius: 0.5rem;
   box-shadow: var(--box-shadow);
   width: 35rem;
@@ -176,15 +176,15 @@ section {
 
 .header .login-form .inputBox span {
   font-size: 1.7rem;
-  color: var(--text-color-2);
+  color: #fff;
 }
 
 .header .login-form .inputBox input {
   font-size: 1.5rem;
-  color: var(--text-color-1);
+  color: var(--bg);
   border-radius: 0.5rem;
   padding: 1rem;
-  background: var(--bg-color-2);
+  background: #eee;
   width: 100%;
   text-transform: none;
   margin: 0.5rem 0;
@@ -198,7 +198,7 @@ section {
 }
 
 .header .login-form .remember label {
-  color: var(--text-color-2);
+  color: #fff;
   font-size: 1.5rem;
   cursor: pointer;
 }
