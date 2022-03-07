@@ -127,6 +127,7 @@ section {
   align-items: center;
   transform: scaleY(0);
   transform-origin: top;
+  border-radius: 0.5rem;
 }
 
 .header .search-form.active {
@@ -140,6 +141,7 @@ section {
   color: var(--black);
   padding: 1rem;
   text-transform: none;
+  border-radius: 0.5rem;
 }
 
 .header .search-form label {
