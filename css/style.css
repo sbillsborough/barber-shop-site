@@ -253,3 +253,18 @@ section {
   font-size: 1.7rem;
   color: #fff;
 }
+
+.form-container form .inputBox input {
+  font-size: 1.5rem;
+  color: var(--bg);
+  background: #eee;
+  border-radius: 0.5rem;
+  margin: 0.5rem 0;
+  text-transform: none;
+  width: 100%;
+  padding: 1rem;
+}
+
+.form-container form .btn {
+  flex: 1 1 23rem;
+}
