@@ -216,6 +216,7 @@ section {
   background: url(/images/home-img.jpg);
   background-size: cover;
   background-position: center;
+  box-shadow: inset -1px -20px 20px var(--bg);
 }
 
 .home .content {
