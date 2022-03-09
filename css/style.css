@@ -238,8 +238,8 @@ section {
 }
 
 .form-container form {
+  border: var(--border);
   background: var(--black);
-  border-radius: 0.5rem;
   padding: 2rem;
   display: flex;
   flex-wrap: wrap;
@@ -277,8 +277,8 @@ section {
   gap: 1.5rem;
 }
 
-.serices .box-container .box {
-  padding: 5rem;
+.services .box-container .box {
+  border: var(--border);
   text-align: center;
 }
 
@@ -339,19 +339,10 @@ section {
 }
 
 .deals .box-container .box {
+  border: var(--border);
   background: var(--black);
-  border-radius: 0.5rem;
   position: relative;
   padding: 2rem;
-}
-
-.deals .box-container .box span {
-  position: absolute;
-  top: 5rem;
-  right: 2rem;
-  color: #fff;
-  font-weight: bolder;
-  font-size: 5rem;
 }
 
 .deals .box-container .box i {
@@ -363,7 +354,7 @@ section {
   color: #fff;
   background: var(--bg);
   border-radius: 50%;
-  margin-bottom: 5rem;
+  margin-bottom: 0.5rem;
 }
 
 .deals .box-container .box h3 {
@@ -376,4 +367,42 @@ section {
   color: #fff;
   font-size: 1.5rem;
   line-height: 1.8;
+}
+
+.review .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.review .box-container .box {
+  border: var(--border);
+  background: var(--black);
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.review .box-container .box p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  color: #eee;
+  padding: 2rem 0;
+}
+
+.review .box-container .box .user {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review .box-container .box h3 {
+  padding: 1rem 0;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.review .box-container .box .stars i {
+  font-size: 1.5rem;
+  color: #fff;
 }
