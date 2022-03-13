@@ -539,9 +539,9 @@ span {
     position: absolute;
     top: 100%;
     right: -100%;
-    background: #fff;
-    width: 30rem;
-    height: calc(100vh - 9.5rem);
+    background: var(--black);
+    width: 20rem;
+    height: 100vh;
   }
 
   .header .navbar.active {
@@ -549,7 +549,7 @@ span {
   }
 
   .header .navbar a {
-    color: var(--black);
+    color: #fff;
     display: block;
     margin: 1.5rem;
     padding: 0.5rem;
