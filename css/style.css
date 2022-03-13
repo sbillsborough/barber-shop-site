@@ -167,6 +167,8 @@ span {
   right: 7%;
   background: var(--black);
   border-radius: 0.5rem;
+  border: var(--border);
+  opacity: 0.95;
   box-shadow: var(--bg);
   width: 35rem;
   padding: 2rem;
