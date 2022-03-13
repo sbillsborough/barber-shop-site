@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap");
 
 :root {
-  --main-color: #d3ad7f;
+  --main-color: #e64949;
   --black: #151520;
   --bg: #0d0d11;
   --border: 0.1rem solid rgba(255, 255, 255, 0.3);
@@ -47,10 +47,14 @@ section {
   padding: 2rem 7%;
 }
 
+span {
+  color: var(--main-color);
+}
+
 .heading {
   text-align: center;
   color: #fff;
-  text-transform: capitalize;
+  text-transform: uppercase;
   padding-bottom: 3.5rem;
   font-size: 4rem;
 }
@@ -228,7 +232,7 @@ section {
 .home .content h3 {
   font-size: 6rem;
   text-transform: uppercase;
-  color: var(--bg);
+  color: #fff;
 }
 
 .home .content p {
@@ -347,6 +351,15 @@ section {
   padding: 2rem;
 }
 
+.deals .box-container .box .price {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  color: var(--main-color);
+  font-weight: bolder;
+  font-size: 5rem;
+}
+
 .deals .box-container .box i {
   height: 6rem;
   width: 6rem;
@@ -406,7 +419,7 @@ section {
 
 .review .box-container .box .stars i {
   font-size: 1.5rem;
-  color: #fff;
+  color: var(--main-color);
 }
 
 .contact .row {
@@ -500,4 +513,71 @@ section {
 
 .footer .footer-share a:hover {
   background-color: var(--main-color);
+}
+
+/* Media Queries  */
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+
+  .header {
+    padding: 1.5rem 2rem;
+  }
+
+  section {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #menu-btn {
+    display: inline-block;
+  }
+
+  .header .navbar {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    background: #fff;
+    width: 30rem;
+    height: calc(100vh - 9.5rem);
+  }
+
+  .header .navbar.active {
+    right: 0;
+  }
+
+  .header .navbar a {
+    color: var(--black);
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+
+  .header .search-form {
+    width: 90%;
+    right: 2rem;
+  }
+
+  .home {
+    background-position: left;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .home .content h3 {
+    font-size: 4.5rem;
+  }
+
+  .home .content p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
 }
