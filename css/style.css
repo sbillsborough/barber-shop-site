@@ -219,7 +219,7 @@ span {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(./images/home-img.jpg);
+  background: url(images/home-img.jpg);
   background-size: cover;
   background-position: center;
   box-shadow: inset -1px -25px 20px var(--bg);
