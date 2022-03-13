@@ -2,8 +2,8 @@
 
 :root {
   --main-color: #d3ad7f;
-  --black: #13131a;
-  --bg: #010103;
+  --black: #151520;
+  --bg: #0d0d11;
   --border: 0.1rem solid rgba(255, 255, 255, 0.3);
 }
 
@@ -72,6 +72,7 @@ section {
 
 .header {
   background: var(--bg);
+  box-shadow: 5px 20px 20px var(--bg);
   position: fixed;
   top: 0;
   left: 0;
@@ -162,7 +163,7 @@ section {
   right: 7%;
   background: var(--black);
   border-radius: 0.5rem;
-  box-shadow: var(--box-shadow);
+  box-shadow: var(--bg);
   width: 35rem;
   padding: 2rem;
   transform: scale(0);
@@ -217,7 +218,7 @@ section {
   background: url(/images/home-img.jpg);
   background-size: cover;
   background-position: center;
-  box-shadow: inset -1px -20px 20px var(--bg);
+  box-shadow: inset -1px -25px 20px var(--bg);
 }
 
 .home .content {
@@ -227,7 +228,7 @@ section {
 .home .content h3 {
   font-size: 6rem;
   text-transform: uppercase;
-  color: #fff;
+  color: var(--bg);
 }
 
 .home .content p {
