@@ -165,7 +165,7 @@ span {
   position: absolute;
   top: 115%;
   right: 7%;
-  background: var(--black);
+  background: var(--bg);
   border-radius: 0.5rem;
   border: var(--border);
   opacity: 0.95;
@@ -551,7 +551,7 @@ span {
     position: absolute;
     top: 100%;
     right: -100%;
-    background: var(--black);
+    background: var(--bg);
     opacity: 0.95;
     width: 20rem;
     height: 100vh;
