@@ -577,7 +577,7 @@ span {
   }
 
   .home {
-    background-position: left;
+    background-position: center center;
     justify-content: center;
     text-align: center;
   }
