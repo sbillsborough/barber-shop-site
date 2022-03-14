@@ -19,7 +19,7 @@ I have built this project to showcase my ability to produce a front-end site.
 
 ## Screenshots
 
-![Example screenshot](./images/barbershop.png)
+![Example screenshot](./images/barbershop.jpg)
 
 ## Technologies
 
@@ -48,4 +48,4 @@ Inspired by Zain Barbers from my home town.
 
 ## Contact
 
-Created by [@scottybillsb](billsboroughscott@gmail.com) - feel free to contact me!
+Created by [billsboroughscott@gmail.com] - feel free to contact me!
