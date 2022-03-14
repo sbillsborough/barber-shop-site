@@ -1,6 +1,6 @@
 # barber-shop-site
 
-> A resonsive animated barbershop brochure site with nav bar and functioning icons/menus.
+> A responsive animated barbershop brochure site with nav bar and functioning icons/menus.
 
 ## Table of contents
 

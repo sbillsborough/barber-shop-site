@@ -580,6 +580,10 @@ span {
     text-align: center;
   }
 
+  .home .content {
+    padding-bottom: 200px;
+  }
+
   .home .content h3 {
     font-size: 4.5rem;
   }
