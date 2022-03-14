@@ -547,16 +547,14 @@ span {
   }
 
   .header .navbar {
-    transition: all 0.5s ease-out;
+    transition: all 0.45s ease-out;
     position: absolute;
-    border-radius: 5px;
-    border: var(--border);
     top: 100%;
     right: -100%;
     background: var(--black);
     opacity: 0.95;
     width: 20rem;
-    height: 100vh - 9rem;
+    height: 100vh;
   }
 
   .header .navbar.active {
